@@ -1,0 +1,18 @@
+<menu 	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <!-- http://stackoverflow.com/questions/18450165/searchview-widget-not-showing-up-in-action-bar/20290512#20290512 -->
+    <item	android:id="@+id/menu_search"
+		    android:actionViewClass="android.support.v7.widget.SearchView"
+		    yourapp:actionViewClass="android.support.v7.widget.SearchView"
+		    android:icon="@android:drawable/ic_menu_search"
+		    android:showAsAction="ifRoom|collapseActionView"
+		    yourapp:showAsAction="always"
+    		android:title="@string/action_search"/>
+
+    <item	android:id="@+id/action_settings"
+			android:orderInCategory="100"
+			android:showAsAction="never"
+			android:title="@string/action_settings"/>
+
+</menu>
