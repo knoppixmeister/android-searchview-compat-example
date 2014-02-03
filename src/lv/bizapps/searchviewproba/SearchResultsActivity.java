@@ -39,7 +39,7 @@ public class SearchResultsActivity extends ActionBarActivity {
         setIntent(intent);
         handleIntent(intent);
     }
- 
+
     /**
      * Handling intent data
      */
