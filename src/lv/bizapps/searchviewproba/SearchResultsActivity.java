@@ -1,6 +1,5 @@
 package lv.bizapps.searchviewproba;
 
-import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
